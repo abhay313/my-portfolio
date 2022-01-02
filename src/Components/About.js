@@ -20,7 +20,7 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p class="bio">{bio}</p>
+            <p className="bio">{bio}</p>
             <div className="row">
                <div className="columns download">
                   <p>

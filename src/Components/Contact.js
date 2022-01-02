@@ -29,10 +29,13 @@ class Contact extends Component {
             <div className="ten columns">
 
                   <p className="lead">{message}</p>
+                  <p> Please DO NOT SEND MESSAGE through form BACKEND IS NOT CONNECTED. </p>
 
             </div>
 
          </div>
+         
+
 
          <div className="row">
             <div className="eight columns">

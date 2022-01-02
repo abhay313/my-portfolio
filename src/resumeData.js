@@ -5,15 +5,25 @@ let resumeData = {
     "linkedinId":"Your LinkedIn Id",
     "roleDescription": "I like dabbling in various parts of Full Stack Development and like to learn about new technologies and Competitve coding",
     "social":[
+      {
+        "name":"codechef",
+        "url":"https://www.codechef.com/users/avay_hk",
+        "className":"fab fa-cuttlefish"
+      },
+      {
+        "name":"hackerrank",
+        "url":"https://www.hackerrank.com/avay_hk",
+        "className":"fab fa-hire-a-helper"
+      },
         {
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/abhay-singh-yadav-52812b16b/",
-          "className":"fa fa-linkedin"
+          "className":"fab fa-linkedin-in"
         },
         {
           "name":"github",
           "url":"http://github.com/abhay313",
-          "className":"fa fa-github"
+          "className":"fab fa-github"
         }
       ],
     "profilePic":"'../assets/profile.jpg",
@@ -57,7 +67,7 @@ let resumeData = {
     "skills":[
 
       {
-            "skillname":"C/C++, Java, Python3"
+            "skillname":"C/C++, Java"
       },
 
       {
@@ -65,11 +75,15 @@ let resumeData = {
       },
 
       {
-        "skillname":"Reactjs, Nodejs, Amazon S3, DynamoDB, AWS Lambda, API Gateway"
+        "skillname":"Reactjs, Nodejs, SQL, MongoDB"
       },
 
       {
         "skillname":"Git"
+      },
+      
+      {
+        "skillname":"Familiar with Amazon S3, Amazon DynamoDB"
       }
     ],
     "projects":[
@@ -80,10 +94,16 @@ let resumeData = {
         "imgurl":"../images/group-chat.png"
       },
       {
-        "title":"Weather App",
-        "online":"https://abhay313-weather-application.herokuapp.com/",
-        "github":"https://github.com/abhay313/node3-weather-website",
-        "imgurl":"../images/weather.jpg"
+        "title":"Amazon Clone",
+        "online":"https://ecommerce-website-8f014.web.app/",
+        "github":"https://github.com/abhay313/amazon-clone",
+        "imgurl":"../images/amazon.png"
+      },
+      {
+        "title":"Global Covid Tracker",
+        "online":"https://covid-19-tracker-313.web.app/",
+        "github":"https://github.com/abhay313/covid-19-tracker",
+        "imgurl":"../images/covid.jpg"
       },
       {
         "title":"Burger Builder",
@@ -94,8 +114,21 @@ let resumeData = {
       {
         "title":"Food App",
         "online":"https://abhay313-react-food-app.herokuapp.com/",
-        "github":"https://github.com/abhay313/reactjs-food-app",
+        "github":" https://github.com/abhay313/reactjs-food-app",
         "imgurl":"../images/food.jpeg"
+      },
+     
+      {
+        "title":"Task Manager",
+        "online":"Not Hosted",
+        "github":"https://github.com/abhay313/task-manager-api",
+        "imgurl":"../images/task.png"
+      },
+      {
+        "title":"Weather App",
+        "online":"https://abhay313-weather-app.herokuapp.com/",
+        "github":"https://github.com/abhay313/node-v3-chat-app",
+        "imgurl":"../images/weather.jpg"
       }
 
     ]

@@ -19,7 +19,7 @@ class Experience extends Component {
       })
       
       var skills = this.props.data.skills.map(function(skills, index){
-        return <div class="skills" key={index}><li><em><span>&bull;</span> {skills.skillname}</em></li></div>
+        return <div className="skills" key={index}><li><em><span>&bull;</span> {skills.skillname}</em></li></div>
       })
     }
 

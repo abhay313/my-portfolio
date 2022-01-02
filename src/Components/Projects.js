@@ -9,7 +9,7 @@ class Projects extends Component {
       width: "200px",
       margin:"20px",
       padding: "20px",
-      background: "#f2e0e0"
+      background: "#FFDDCA"
     };
 
     const imgStyle = {
@@ -26,7 +26,7 @@ class Projects extends Component {
            <img src={project.imgurl} alt={project.title} style={imgStyle}/>
            <div id="project-links">
              <h5>{project.title}</h5>
-             <a href={project.online}>Live Link</a>
+             {(project.online !== 'Not Hosted') ? <a href={project.online}>Live Link</a> : 'Not Hosted Yet'}
              <a href={project.github}>Get code</a>
            </div>
           </div>
