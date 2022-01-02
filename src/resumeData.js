@@ -75,11 +75,7 @@ let resumeData = {
       },
 
       {
-        "skillname":"Reactjs, Nodejs, SQL, MongoDB"
-      },
-
-      {
-        "skillname":"Git"
+        "skillname":"Reactjs, Nodejs, SQL, MongoDB, Git"
       },
       
       {
